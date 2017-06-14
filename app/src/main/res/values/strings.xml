@@ -20,4 +20,6 @@
     <string name="success">Sucess</string>
     <string name="here">here</string>
     <string name="coming_soon">COMING SOON</string>
+    <string name="default_label">Default Label</string>
+    <string name="default_desc">This is default description</string>
 </resources>

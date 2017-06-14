@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/464361291cecdbfb4f4d6681c98472bcef8e0e19/output/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 13,
+                        "endOffset": 327
+                    }
+                }
+            }
+        ]
+    }
+]

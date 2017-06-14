@@ -1,0 +1,4 @@
+#Wed Jun 14 10:09:58 WIB 2017
+base.0=/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+renamed.0=classes.dex
+file.0=/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex
