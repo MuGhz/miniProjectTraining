@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle("Main Menu");
         String user = getIntent().getStringExtra("user");
         TextView txt = (TextView) findViewById(R.id.text);
         txt.setText("Login Success ! Hi "+user+" !");
@@ -39,11 +40,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private ArrayList<ListMenuItem> createSampleMenu() {
-        ListMenuItem item1 = new ListMenuItem(1, null, "Check Balance", "check your balance");
-        ListMenuItem item2 = new ListMenuItem(2, null, "Top Up", "top up your balance");
-        ListMenuItem item3 = new ListMenuItem(3, null, "Shopping cart", "go to shopping cart");
-        ListMenuItem item4 = new ListMenuItem(4, null, "Profile", "check your profile");
-        ListMenuItem item5 = new ListMenuItem(5, null, "Setting", "go to setting");
+        ListMenuItem item1 = new ListMenuItem(1, "http://icons.iconarchive.com/icons/designcontest/ecommerce-business/256/wallet-icon.png", "Check Balance", "check your balance");
+        ListMenuItem item2 = new ListMenuItem(2, "http://icons.iconarchive.com/icons/awicons/vista-artistic/256/coin-add-icon.png", "Top Up", "top up your balance");
+        ListMenuItem item3 = new ListMenuItem(3, "http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Cart-icon.png", "Shopping cart", "go to shopping cart");
+        ListMenuItem item4 = new ListMenuItem(4, "http://icons.iconarchive.com/icons/ampeross/qetto-2/256/profile-icon.png", "Profile", "check your profile");
+        ListMenuItem item5 = new ListMenuItem(5, "http://icons.iconarchive.com/icons/ampeross/qetto-2/256/settings-icon.png", "Setting", "go to setting");
         ArrayList<ListMenuItem> list = new ArrayList<ListMenuItem>();
         list.add(item1);
         list.add(item2);
@@ -53,5 +54,4 @@ public class MainActivity extends AppCompatActivity {
 
         return list;
     }
-
 }

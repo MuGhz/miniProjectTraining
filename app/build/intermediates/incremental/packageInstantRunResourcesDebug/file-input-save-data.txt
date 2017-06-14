@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jun 14 10:14:32 WIB 2017
+#Wed Jun 14 11:26:02 WIB 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png

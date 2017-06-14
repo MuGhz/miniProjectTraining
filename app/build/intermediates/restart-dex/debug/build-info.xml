@@ -6,22 +6,22 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1497411716899"
+    timestamp="1497414602236"
     token="6298377939496294091"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="245" />
+        duration="72" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="10" />
+        duration="62" />
     <task
         name="verifier"
-        duration="0" />
+        duration="7" />
 
     <artifact
         location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1497410071650"
+        timestamp="1497414362349"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/outputs/apk/app-debug.apk"
@@ -78,7 +78,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1497411716899"
+        timestamp="1497414602236"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
