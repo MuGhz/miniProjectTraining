@@ -1,4 +1,4 @@
-#Thu Jun 15 10:54:52 WIB 2017
+#Thu Jun 15 14:12:12 WIB 2017
 base.0=/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fa418bda9c880eb72111e1f8827f8c79c7fcc9b5
 renamed.1=classes.dex
 renamed.0=classes2.dex
