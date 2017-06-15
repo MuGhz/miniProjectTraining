@@ -3,6 +3,7 @@ package com.example.muhammadghozi41.latihanlogin;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
@@ -20,6 +21,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -30,8 +32,18 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.muhammadghozi41.latihanlogin.model.ListMenuItem;
+import com.example.muhammadghozi41.latihanlogin.service.PostService;
+import com.google.gson.Gson;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -301,21 +313,39 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         private final String mEmail;
         private final String mPassword;
+        private Context context;
+        private List<ListMenuItem> items;
+        private Intent i = new Intent(LoginActivity.this, MainActivity.class);
+        public List<ListMenuItem> getItems() {
+            return items;
+        }
+
 
         UserLoginTask(String email, String password) {
             mEmail = email;
             mPassword = password;
+
         }
 
         @Override
         protected Boolean doInBackground(Void... params) {
             // TODO: attempt authentication against a network service.
+            Retrofit client = new Retrofit.Builder()
+                    .baseUrl("http://www.mocky.io")
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .build();
+
+            PostService service = client.create(PostService.class);
+            Call<List<ListMenuItem>> call = service.listAllMenu("59420b140f0000781ac63356");
 
             try {
-                // Simulate network access.
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                return false;
+                Response<List<ListMenuItem>> response = call.execute();
+                Log.d("RESPONSE BACKEND", new Gson().toJson(response.body()));
+                items = response.body();
+                i.putExtra("myMenu", new Gson().toJson(items));
+
+            } catch (IOException e) {
+                e.printStackTrace();
             }
 
             for (String credential : DUMMY_CREDENTIALS) {
@@ -336,7 +366,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(false);
 
             if (success) {
-                Intent i = new Intent(LoginActivity.this, MainActivity.class);
                 i.putExtra("user",mEmail);
                 startActivity(i);
             } else {

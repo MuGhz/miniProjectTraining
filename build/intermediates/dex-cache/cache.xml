@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_ec6120198f0ea2251532c4bf19cfb9b9719b34d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/b8805824f0fb572822f67160e704e92ed8d27d0f/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -48,12 +57,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.8.0_a57f520005c3ba00d1bb49058fc7169e8b3ab865/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/3e1351faa6e3400970be035818c16fcd39c42ab9/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.0"
         sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
         <dex dex="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_adc7c425aa73c85b1d67a360c8969abe72f201ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.3.0_e88ced4f0000aa957c619d17b64f671b6b9b6063/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -81,6 +108,15 @@
         revision="26.0.0"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
         <dex dex="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_23664a7441e8a66c2936773a1b2828b16588c996/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_53f00e81faa81a142d266e4937be52348c4761fe/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -144,6 +180,15 @@
         revision="26.0.0"
         sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
         <dex dex="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3580e0e0e24812f63719740e66d020f4b52f52c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.3.0_aa2b76c964bc35ce4ab9513d76e62c3f375eed67/classes.dex" />
     </item>
     <item
         is-multidex="true"
