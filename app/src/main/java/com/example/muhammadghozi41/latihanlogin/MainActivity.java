@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String label = listMenuAdapter.getItem(i).getLabel().toString();
                 Toast.makeText(MainActivity.this, label, Toast.LENGTH_SHORT).show();
-            }
+                }
         });
     }
     private ArrayList<ListMenuItem> createSampleMenu() {

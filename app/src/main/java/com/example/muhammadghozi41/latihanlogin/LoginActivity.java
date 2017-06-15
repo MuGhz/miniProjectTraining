@@ -313,7 +313,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         private final String mEmail;
         private final String mPassword;
-        private Context context;
         private List<ListMenuItem> items;
         private Intent i = new Intent(LoginActivity.this, MainActivity.class);
         public List<ListMenuItem> getItems() {
