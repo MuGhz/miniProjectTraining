@@ -32,6 +32,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.muhammadghozi41.latihanlogin.helper.DatabaseHelper;
 import com.example.muhammadghozi41.latihanlogin.model.ListMenuItem;
 import com.example.muhammadghozi41.latihanlogin.service.PostService;
 import com.google.gson.Gson;
@@ -74,12 +75,16 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+    private DatabaseHelper dbHelper;
+    private Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         setTitle("Login");
+        context = this;
+        dbHelper = new DatabaseHelper(context);
         // Set up the login form.
 
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
@@ -335,13 +340,14 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                     .build();
 
             PostService service = client.create(PostService.class);
-            Call<List<ListMenuItem>> call = service.listAllMenu("59420b140f0000781ac63356");
+            Call<List<ListMenuItem>> call = service.listAllMenu("59438e36120000b102fcb335");
 
             try {
                 Response<List<ListMenuItem>> response = call.execute();
                 Log.d("RESPONSE BACKEND", new Gson().toJson(response.body()));
                 items = response.body();
-                i.putExtra("myMenu", new Gson().toJson(items));
+                dbHelper.insertMenu(items);
+                //i.putExtra("myMenu", new Gson().toJson(items));
 
             } catch (IOException e) {
                 e.printStackTrace();

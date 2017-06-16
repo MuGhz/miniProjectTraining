@@ -9,7 +9,9 @@ public class ListMenuItem {
     private String iconUrl;
     private String label;
     private String description;
+    public ListMenuItem(){
 
+    }
     public ListMenuItem(int id, String icon, String label, String desc) {
         this.id = id;
         this.iconUrl = icon;
@@ -47,5 +49,30 @@ public class ListMenuItem {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getMenuLabel() {
+        return label;
+    }
+
+    public String getMenuDesc() {
+        return description;
+    }
+    public void setMenuLabel(String menuLabel) {
+        this.label = menuLabel;
+
+    }
+
+    public long getParentId() {
+        return id;
+    }
+
+
+    public void setMenuDesc(String menuDesc) {
+        this.description = menuDesc;
+    }
+
+    public void setParentId(int parentId) {
+        this.id = parentId;
     }
 }

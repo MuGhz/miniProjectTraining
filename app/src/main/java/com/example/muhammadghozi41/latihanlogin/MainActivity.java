@@ -19,17 +19,19 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.muhammadghozi41.latihanlogin.adapter.ListMenuAdapter;
+import com.example.muhammadghozi41.latihanlogin.helper.DatabaseHelper;
 import com.example.muhammadghozi41.latihanlogin.model.ListMenuItem;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.example.muhammadghozi41.latihanlogin.R;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-    final Context context = this;
+    final Context context = MainActivity.this;
     private long balance;
     public void initBalance(){
         balance = 100000;
@@ -46,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initBalance();
         setTitle("Main Menu");
+        DatabaseHelper dbHelper = new DatabaseHelper(getApplicationContext());
         String user = getIntent().getStringExtra("user");
         TextView txt = (TextView) findViewById(R.id.text);
         txt.setText("Login Success ! Hi "+user+" !");
@@ -55,15 +58,17 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list_menu);
         String jsonMenu = getIntent().getStringExtra("myMenu");
         //ArrayList<ListMenuItem> listMenuItems = createSampleMenu();
-        ArrayList<ListMenuItem> listMenuItems = new Gson().fromJson(jsonMenu, new TypeToken<List<ListMenuItem>>(){}.getType());
-        final ListMenuAdapter listMenuAdapter = new ListMenuAdapter(MainActivity.this, R.layout.list_menu_layout, listMenuItems);
+       // ArrayList<ListMenuItem> listMenuItems = new Gson().fromJson(jsonMenu, new TypeToken<List<ListMenuItem>>(){}.getType());
+        ArrayList<ListMenuItem> myMenu = dbHelper.getAllParentMenu();
+        final ListMenuAdapter listMenuAdapter = new ListMenuAdapter(MainActivity.this, R.layout.list_menu_layout, myMenu);
         listView.setAdapter(listMenuAdapter);
-
+        final Intent logout = new Intent(context,LoginActivity.class);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
                 String label = listMenuAdapter.getItem(i).getLabel().toString();
                 Toast.makeText(MainActivity.this, label, Toast.LENGTH_SHORT).show();
                 
@@ -111,8 +116,9 @@ public class MainActivity extends AppCompatActivity {
                     topUpAlert.show();
                 }
 
-                if(label.equals("Log Out")){
+                if(label.equalsIgnoreCase("Log Out")){
 
+                    finish();
                 }
 
                 }

@@ -17,6 +17,7 @@
             android:id="@+id/menu_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
             android:textSize="@dimen/label_font_size"
             android:text="@string/default_label"/>
 
@@ -24,6 +25,7 @@
             android:id="@+id/menu_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
             android:textSize="@dimen/desc_font_size"
             android:text="@string/default_desc"/>
 
