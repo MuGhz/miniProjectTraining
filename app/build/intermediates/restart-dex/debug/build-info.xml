@@ -1,106 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="24"
+    abi="x86_64,x86"
+    api-level="25"
     build-mode="COLD"
     density="420dpi"
     format="10"
-    plugin-version="2.3.2"
-    timestamp="1497599607035"
-    token="6298377939496294091"
+    plugin-version="2.3.3"
+    timestamp="1497881708693"
+    token="-4080718521412066187"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="63" />
+        duration="655" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="4" />
+        duration="45" />
     <task
         name="verifier"
-        duration="0" />
+        duration="12" />
 
     <artifact
-        location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1497583920461"
+        timestamp="1497880632671"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/outputs/apk/app-debug.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1497586873145"
+        timestamp="1497881619898"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1497598957891"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1497599565997"
+        timestamp="1497881708693"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1497599607035"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="E:\KP_fasilkom\miniProject\miniProjectTraining\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
     </build>
 

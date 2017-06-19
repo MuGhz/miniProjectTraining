@@ -1,4 +1,4 @@
-#Tue Jun 13 09:37:22 WIB 2017
-base.0=/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
+#Mon Jun 19 21:13:44 ICT 2017
+base.0=E\:\\KP_fasilkom\\miniProject\\miniProjectTraining\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0
 renamed.0=classes.dex
-file.0=/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex
+file.0=E\:\\KP_fasilkom\\miniProject\\miniProjectTraining\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0\\classes.dex

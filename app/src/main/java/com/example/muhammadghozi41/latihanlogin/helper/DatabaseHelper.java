@@ -115,16 +115,16 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
     }
 
-    public ArrayList<ListMenuItem> getAllParentMenu() {
+    public ArrayList<ListMenuItem> getAllParentMenu(int i) {
         ArrayList<ListMenuItem> itemList = new ArrayList<ListMenuItem>();
-        String sql = "SELECT _id, icon_url, menu_label, menu_desc, parent_id FROM menu_item ";
+        String sql = "SELECT _id, icon_url, menu_label, menu_desc, parent_id FROM menu_item WHERE parent_id = "+i;
         Cursor cur = db.rawQuery(sql, null);
         Log.d("DEBUG", "Total Menu = "+cur.getCount());
         if(cur.getCount() > 0) {
             if(cur.moveToFirst()) {
-                while(!cur.isLast()) {
+                while(!cur.isAfterLast()) {
                     ListMenuItem item = new ListMenuItem();
-                    item.setId(cur.getLong(cur.getColumnIndex("_id")));
+                    item.setId(cur.getInt(cur.getColumnIndex("_id")));
                     item.setIconUrl(cur.getString(cur.getColumnIndex(MenuItemTable.COLUMN_NAME_ICON_URL)));
                     item.setMenuLabel(cur.getString(cur.getColumnIndex(MenuItemTable.COLUMN_NAME_MENU_LABEL)));
                     item.setMenuDesc(cur.getString(cur.getColumnIndex(MenuItemTable.COLUMN_NAME_MENU_DESC)));
@@ -133,6 +133,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     itemList.add(item);
                     cur.moveToNext();
                 }
+
             }
         }
         cur.close();

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+        "outputFile": "E:\\KP_fasilkom\\miniProject\\miniProjectTraining\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/464361291cecdbfb4f4d6681c98472bcef8e0e19/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\ARSnova\\.android\\build-cache\\b186d634387862869f15dd0fd815878b1339b103\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/464361291cecdbfb4f4d6681c98472bcef8e0e19/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\ARSnova\\.android\\build-cache\\b186d634387862869f15dd0fd815878b1339b103\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/464361291cecdbfb4f4d6681c98472bcef8e0e19/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\ARSnova\\.android\\build-cache\\b186d634387862869f15dd0fd815878b1339b103\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/464361291cecdbfb4f4d6681c98472bcef8e0e19/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\ARSnova\\.android\\build-cache\\b186d634387862869f15dd0fd815878b1339b103\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -88,7 +88,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "/home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/28657bf22db202820b6a40ed90eaaae81760271c/output/res/values-land/values-land.xml",
+                    "file": "C:\\Users\\ARSnova\\.android\\build-cache\\23cc99b5237b4b928575255ae21c0e8fbb89d76e\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

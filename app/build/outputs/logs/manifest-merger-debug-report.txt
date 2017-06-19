@@ -1,121 +1,121 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:3:5-55
-		INJECTED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:3:5-55
+		INJECTED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml
+		INJECTED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml
+		INJECTED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml
+		INJECTED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml
+		INJECTED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml
+		INJECTED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:6:5-71
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:6:22-68
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:7:5-71
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:7:22-68
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:8:5-72
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:8:22-69
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:8:22-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:9:5-66
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:9:5-66
 	android:name
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:9:22-64
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:9:22-64
 application
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:11:5-29:19
-MERGED from [com.android.support:design:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/28657bf22db202820b6a40ed90eaaae81760271c/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/464361291cecdbfb4f4d6681c98472bcef8e0e19/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/6125aaba9f15ca85ac02524fd18e5cb9f6116bf6/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/f1d2724894097c548f94850f775ea1a5059ef04e/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/b8805824f0fb572822f67160e704e92ed8d27d0f/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/aa1488a664a7d6512512c20b64e0d7a91e1e9390/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/242e27685d16f78aeb73a4cc21dd0a42a8de9010/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/419d7b8bbde6de2386ee6cc20ba05ede931045fb/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/c7c7574e724a780f5a3d0b1642fe09945ea02a78/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/e7944a40b7a536909dd2559984175e1b6e6f36ce/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/3e1351faa6e3400970be035818c16fcd39c42ab9/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/11c1763310290596f94cb797dc9b4958930321f1/output/AndroidManifest.xml:9:5-20
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:11:5-29:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\23cc99b5237b4b928575255ae21c0e8fbb89d76e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\b186d634387862869f15dd0fd815878b1339b103\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\b69c9359c3bb7b1e6c1c0ffc4d28d62f97eedcdf\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\cf91fd9e88bbc171b46180819c4beca561a870ed\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\32102df715d47b38feeacdaa59041aaf94e59cfa\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\b5762a18534692a550cb40ab98263efb4d5e2784\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\d59447a3846da7dc78014abcf614de7c61cfcd07\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\34cfaaf538a7aca8f07971aa4af5625b30f07f26\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\eae4eeb7ff2525ef60fc10b35d53c1898abf89c1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\372825210fde8b82fbe33a97c861c5818fef2c11\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\09aea10c81a8a2e5b2775a8290bf87c5ed7a07b4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ARSnova\.android\build-cache\7f33d219f490193b9f4c1fad40b0d68500e472b8\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:14:9-41
 	android:supportsRtl
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:16:9-35
 	android:roundIcon
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:15:9-54
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:15:9-54
 	android:allowBackup
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:13:9-43
 	android:theme
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:17:9-40
 activity#com.example.muhammadghozi41.latihanlogin.LoginActivity
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:18:9-26:20
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:label
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:20:13-45
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:20:13-45
 	android:name
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:19:13-42
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:19:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.example.muhammadghozi41.latihanlogin.MainActivity
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:27:9-50
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:27:9-50
 	android:name
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:27:19-47
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:27:19-47
 activity#com.example.muhammadghozi41.latihanlogin.registerActivity
-ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:28:9-63
+ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:28:9-63
 	android:name
-		ADDED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml:28:19-51
+		ADDED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml:28:19-51
 uses-sdk
-INJECTED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/28657bf22db202820b6a40ed90eaaae81760271c/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/464361291cecdbfb4f4d6681c98472bcef8e0e19/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/6125aaba9f15ca85ac02524fd18e5cb9f6116bf6/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/f1d2724894097c548f94850f775ea1a5059ef04e/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/544635d08a9cbb691cffe2e89684dff4b6c3c4e2/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/b8805824f0fb572822f67160e704e92ed8d27d0f/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/aa1488a664a7d6512512c20b64e0d7a91e1e9390/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/242e27685d16f78aeb73a4cc21dd0a42a8de9010/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/419d7b8bbde6de2386ee6cc20ba05ede931045fb/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/c7c7574e724a780f5a3d0b1642fe09945ea02a78/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/e7944a40b7a536909dd2559984175e1b6e6f36ce/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/3e1351faa6e3400970be035818c16fcd39c42ab9/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/11c1763310290596f94cb797dc9b4958930321f1/output/AndroidManifest.xml:5:5-7:41
+INJECTED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\23cc99b5237b4b928575255ae21c0e8fbb89d76e\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\b186d634387862869f15dd0fd815878b1339b103\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\b69c9359c3bb7b1e6c1c0ffc4d28d62f97eedcdf\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\cf91fd9e88bbc171b46180819c4beca561a870ed\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\33e4b0c0dd3f655c77e58a4ea38a8c58dd25e106\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\32102df715d47b38feeacdaa59041aaf94e59cfa\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\b5762a18534692a550cb40ab98263efb4d5e2784\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\d59447a3846da7dc78014abcf614de7c61cfcd07\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\34cfaaf538a7aca8f07971aa4af5625b30f07f26\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\eae4eeb7ff2525ef60fc10b35d53c1898abf89c1\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\372825210fde8b82fbe33a97c861c5818fef2c11\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\09aea10c81a8a2e5b2775a8290bf87c5ed7a07b4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ARSnova\.android\build-cache\7f33d219f490193b9f4c1fad40b0d68500e472b8\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/28657bf22db202820b6a40ed90eaaae81760271c/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\23cc99b5237b4b928575255ae21c0e8fbb89d76e\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml
+		INJECTED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml
+		INJECTED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml
-		INJECTED from /home/fasilkom/mahasiswa/m/muhammad.ghozi41/StudioProjects/latihanLogin/app/src/main/AndroidManifest.xml
+		INJECTED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml
+		INJECTED from E:\KP_fasilkom\miniProject\miniProjectTraining\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/28657bf22db202820b6a40ed90eaaae81760271c/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/464361291cecdbfb4f4d6681c98472bcef8e0e19/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/6125aaba9f15ca85ac02524fd18e5cb9f6116bf6/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/f1d2724894097c548f94850f775ea1a5059ef04e/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/544635d08a9cbb691cffe2e89684dff4b6c3c4e2/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:transition:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/b8805824f0fb572822f67160e704e92ed8d27d0f/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/aa1488a664a7d6512512c20b64e0d7a91e1e9390/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/242e27685d16f78aeb73a4cc21dd0a42a8de9010/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/419d7b8bbde6de2386ee6cc20ba05ede931045fb/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/c7c7574e724a780f5a3d0b1642fe09945ea02a78/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/e7944a40b7a536909dd2559984175e1b6e6f36ce/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/3e1351faa6e3400970be035818c16fcd39c42ab9/output/AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\23cc99b5237b4b928575255ae21c0e8fbb89d76e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\b186d634387862869f15dd0fd815878b1339b103\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\b69c9359c3bb7b1e6c1c0ffc4d28d62f97eedcdf\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\cf91fd9e88bbc171b46180819c4beca561a870ed\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\33e4b0c0dd3f655c77e58a4ea38a8c58dd25e106\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\32102df715d47b38feeacdaa59041aaf94e59cfa\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\b5762a18534692a550cb40ab98263efb4d5e2784\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\d59447a3846da7dc78014abcf614de7c61cfcd07\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\34cfaaf538a7aca8f07971aa4af5625b30f07f26\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\eae4eeb7ff2525ef60fc10b35d53c1898abf89c1\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\372825210fde8b82fbe33a97c861c5818fef2c11\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\09aea10c81a8a2e5b2775a8290bf87c5ed7a07b4\output\AndroidManifest.xml:25:5-27:41
 	android:value
-		ADDED from [com.android.support:design:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/28657bf22db202820b6a40ed90eaaae81760271c/output/AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\23cc99b5237b4b928575255ae21c0e8fbb89d76e\output\AndroidManifest.xml:27:9-38
 	android:name
-		ADDED from [com.android.support:design:26.0.0-alpha1] /home/fasilkom/mahasiswa/m/muhammad.ghozi41/.android/build-cache/28657bf22db202820b6a40ed90eaaae81760271c/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\ARSnova\.android\build-cache\23cc99b5237b4b928575255ae21c0e8fbb89d76e\output\AndroidManifest.xml:26:9-47

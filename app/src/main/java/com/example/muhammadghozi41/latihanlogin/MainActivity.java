@@ -48,18 +48,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initBalance();
         setTitle("Main Menu");
-        DatabaseHelper dbHelper = new DatabaseHelper(getApplicationContext());
+        final DatabaseHelper dbHelper = new DatabaseHelper(getApplicationContext());
         String user = getIntent().getStringExtra("user");
         TextView txt = (TextView) findViewById(R.id.text);
         txt.setText("Login Success ! Hi "+user+" !");
         Toast.makeText(MainActivity.this,R.string.success,Toast.LENGTH_LONG).show();
 
         //loading dynamic menu with adapter
-        ListView listView = (ListView) findViewById(R.id.list_menu);
-        String jsonMenu = getIntent().getStringExtra("myMenu");
+        final ListView listView = (ListView) findViewById(R.id.list_menu);
+        //String jsonMenu = getIntent().getStringExtra("myMenu");
         //ArrayList<ListMenuItem> listMenuItems = createSampleMenu();
        // ArrayList<ListMenuItem> listMenuItems = new Gson().fromJson(jsonMenu, new TypeToken<List<ListMenuItem>>(){}.getType());
-        ArrayList<ListMenuItem> myMenu = dbHelper.getAllParentMenu();
+        ArrayList<ListMenuItem> myMenu = dbHelper.getAllParentMenu(0);
         final ListMenuAdapter listMenuAdapter = new ListMenuAdapter(MainActivity.this, R.layout.list_menu_layout, myMenu);
         listView.setAdapter(listMenuAdapter);
         final Intent logout = new Intent(context,LoginActivity.class);
@@ -71,7 +71,19 @@ public class MainActivity extends AppCompatActivity {
 
                 String label = listMenuAdapter.getItem(i).getLabel().toString();
                 Toast.makeText(MainActivity.this, label, Toast.LENGTH_SHORT).show();
-                
+                if(label.equalsIgnoreCase("Transaction")){
+                    ArrayList<ListMenuItem> tmpMenu = dbHelper.getAllParentMenu(1);
+                    tmpMenu.add(new ListMenuItem(99,"http://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/arrow-back-icon.png","Back","",0));
+                    listView.setAdapter(new ListMenuAdapter(MainActivity.this,R.layout.list_menu_layout,tmpMenu));
+                }
+                if(label.equalsIgnoreCase("Profile")){
+                    ArrayList<ListMenuItem> tmpMenu = dbHelper.getAllParentMenu(2);
+                    tmpMenu.add(new ListMenuItem(99,"http://icons.iconarchive.com/icons/graphicloads/100-flat-2/256/arrow-back-icon.png","Back","",0));
+                    listView.setAdapter(new ListMenuAdapter(MainActivity.this,R.layout.list_menu_layout,tmpMenu));
+                }
+                if(label.equalsIgnoreCase("Back")){
+                    listView.setAdapter(new ListMenuAdapter(MainActivity.this,R.layout.list_menu_layout,dbHelper.getAllParentMenu(0)));
+                }
                 if(label.equals("Check Balance")){
                     AlertDialog.Builder builder =  new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("Your Balance")

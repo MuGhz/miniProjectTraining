@@ -5,10 +5,11 @@ package com.example.muhammadghozi41.latihanlogin.model;
  */
 
 public class ListMenuItem {
-    private long id;
+    private int id;
     private String iconUrl;
     private String label;
     private String description;
+    private int parent_id;
     public ListMenuItem(){
 
     }
@@ -18,12 +19,18 @@ public class ListMenuItem {
         this.label = label;
         this.description = desc;
     }
-
-    public long getId() {
+    public ListMenuItem(int id, String icon, String label, String desc,int parent_id) {
+        this.id = id;
+        this.iconUrl = icon;
+        this.label = label;
+        this.description = desc;
+        this.parent_id=parent_id;
+    }
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -39,17 +46,13 @@ public class ListMenuItem {
         return label;
     }
 
-    public void setLabel(String label) {
-        this.label = label;
-    }
+
 
     public String getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+
 
     public String getMenuLabel() {
         return label;
@@ -63,8 +66,9 @@ public class ListMenuItem {
 
     }
 
-    public long getParentId() {
-        return id;
+
+    public int getParentId() {
+        return parent_id;
     }
 
 
@@ -73,6 +77,6 @@ public class ListMenuItem {
     }
 
     public void setParentId(int parentId) {
-        this.id = parentId;
+        this.parent_id = parentId;
     }
 }
